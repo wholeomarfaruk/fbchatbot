@@ -1,7 +1,7 @@
 <?php
 
 $page_access_token = 'EAAOYVU4pXbIBO34EdkFHnI9k4lecHrPRnZCCIZC39yn4ntZCE8P3ZAWIZAZCj4CrGepMwIGQvgBjWSdOl1GvYLsS4Yu41FSLyb62fAlXNVBkPcw60nLDF1jDWxkwGxn0z2dqQcCE2QSQWG992AZA9qG1MJVx7CtHQ2fVkgEpZCMNfp4jyDjvqyM3uJeXwCgpgaFypo1FZBLmk2gfZBFU7x0vGsT8khIrkZD';
-$target_post_id = '123456789_987654321'; // <-- Your target post ID
+$target_post_id = '2795596103899662'; // <-- Your target post ID
 
 // 1. Get latest comments from the specific post
 $comment_api = "https://graph.facebook.com/{$target_post_id}/comments?fields=id,message,from&access_token={$page_access_token}";
